@@ -16,7 +16,10 @@ console.log('Chunked Array:', chunkedArray); // [[1, 2], [3, 4], [5, 6], [7, 8]]
 function findUniqueElements(array) {
     return array.filter((item, index) => array.indexOf(item) === index);
   }
-  
+
 const array2 = [1, 2, 2, 3, 4, 4, 5];
 const uniqueArray = findUniqueElements(array2);
 console.log('Unique Array:', uniqueArray); // [1, 2, 3, 4, 5]
+
+
+export {chunkArray, findUniqueElements}
