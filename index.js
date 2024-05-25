@@ -1,8 +1,8 @@
 
-const { chunkArray, findUniqueElements } = require('./modules/arrayUtils');
+import { chunkArray, findUniqueElements } from './modules/arrayUtils.js';
 console.log(chunkArray);
 console.log(findUniqueElements);
 
-const { deepCloneObject, mergeObjects } = require('./modules/objectUtils');
+import { deepCloneObject, mergeObjects } from './modules/objectUtils.js';
 console.log(deepCloneObject);
 console.log(mergeObjects);
