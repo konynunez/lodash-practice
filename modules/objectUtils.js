@@ -17,4 +17,4 @@ function deepCloneObject(obj) {
   const object2 = { b: 3, c: 4 };
   const mergedObject = mergeObjects(object1, object2);
 
-  export {deepCloneObject, mergeObjects}
+  export { deepCloneObject, mergeObjects };

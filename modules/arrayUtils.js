@@ -22,4 +22,4 @@ const uniqueArray = findUniqueElements(array2);
 console.log('Unique Array:', uniqueArray); // [1, 2, 3, 4, 5]
 
 
-export {chunkArray, findUniqueElements}
+export { chunkArray, findUniqueElements };
