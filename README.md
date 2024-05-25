@@ -16,3 +16,4 @@ practice node js
   - [x] deepCloneObject
   - [x] mergeObjects
 - [x] Import all 4 functions from the modules into index.js
+- [x] Run App and test it
