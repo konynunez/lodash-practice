@@ -1,3 +1,5 @@
+const _ = require('lodash');
+
 // Problem 1: Chunking an Array
 
 function chunkArray(array, size) {
@@ -22,4 +24,4 @@ const uniqueArray = findUniqueElements(array2);
 console.log('Unique Array:', uniqueArray); // [1, 2, 3, 4, 5]
 
 
-export { chunkArray, findUniqueElements };
+module.exports = { chunkArray, findUniqueElements };
